@@ -1,0 +1,312 @@
+* {
+    font-weight: 800;
+}
+
+.butt-div {
+    display: flex;
+    margin-top: 2%;
+    gap: 2%;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* ------------------------------Section 1------------------------------- */
+
+.butt-1 {
+    background-color: aquamarine;
+    padding: 0.5rem 1rem;
+    height: 2rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+}
+
+.butt-2 {
+    background-color: brown;
+    color: #D6D6E7;
+    padding: 0.5rem 1rem;
+    height: 2rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+}
+
+.butt-3 {
+    background-color: coral;
+    padding: 0.5rem 1rem;
+    height: 2rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+}
+
+/* -----------------------------Section 2----------------------------------------- */
+
+.butt-4 {
+    background-color: rgb(235, 72, 194);
+    border: 2px solid rgb(235, 72, 194);
+    padding: 0.5rem 1rem;
+    height: 2rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+    outline: 0;
+    touch-action: manipulation;
+    transition: 300ms;
+}
+.butt-4:hover,
+.butt-4:active {
+    background-color: black;
+    color: rgb(235, 72, 194);
+    background-position: 0 0;
+}
+.butt-4:active {
+    opacity: 0.5;
+}
+
+.butt-5 {
+    background-color: aquamarine;
+    padding: 0.5rem 1rem;
+    height: 2rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+}
+.butt-5:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+.butt-5:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+.butt-6 {
+    background-color: rgb(94, 255, 239);
+    padding: 0.5rem 1rem;
+    height: 2rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+    border-radius: 12px;
+}
+.butt-6:not(:disabled):hover,
+.butt-6:not(:disabled):focus {
+  outline: 0;
+  background-color: rgb(32, 254, 232);
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+.butt-6:disabled {
+  filter: saturate(0.2) opacity(0.5);
+  -webkit-filter: saturate(0.2) opacity(0.5);
+  cursor: not-allowed;
+}
+
+.butt-7{
+    background: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+    padding: 0.5rem 1rem;
+    color: #FFFFFF;
+    height: 2rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    touch-action: manipulation;
+}
+.butt-7:hover {
+    box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+    transition-duration: .1s;
+}
+
+.butt-8{
+    background-color: #FCFCFD;
+    padding: 0.5rem 1rem;
+    color: #36395A;
+    height: 2rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: box-shadow .15s,transform .15s;
+    touch-action: manipulation;
+}
+.butt-8:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}  
+.butt-8:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+}  
+.butt-8:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+/* ----------------------------------Section 3--------------------------- */
+
+.butt-9{
+    appearance: none;
+    background-color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    height: 2rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: 0;
+    opacity: 1;
+    position: relative;
+    transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+}
+.butt-9:before {
+    animation: opacityFallbackOut .5s step-end forwards;
+    backface-visibility: hidden;
+    background-color: #EBEBEB;
+    clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: translateZ(0);
+    transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+    width: 100%;
+  }
+.butt-9:hover:before {
+    animation: opacityFallbackIn 0s step-start forwards;
+    clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+} 
+.butt-9:after {
+    background-color: #FFFFFF;
+}  
+.butt-9 span {
+    z-index: 1;
+    position: relative;
+}
+
+.butt-10{
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    height: 2rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    outline: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+}
+.butt-10:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+}  
+.butt-10:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+.butt-11{
+    padding: 0.5rem 1rem;
+    height: 2rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border:1px solid transparent; 
+    text-decoration: none;
+    position: relative;
+    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+    transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+}
+.butt-11::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom:0px;
+    z-index:-1;
+    width: 0%;
+    height:1px;
+    background: #6098FF;
+    box-shadow: inset 0px 0px 0px #407ff3;
+    display: block;
+    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+    transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
+}
+.butt-11:hover::before {
+    width:100%;
+}  
+.butt-11::after {
+    content: '';
+    position: absolute;
+    right: 0px;
+    top:0px;
+    z-index:-1;
+    width: 0%;
+    height:1px;
+    background: #6098FF;
+    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+    transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
+}
+.butt-11:hover::after {
+    width:100%;
+}
+.butt-11:hover{
+    border-left:1px solid #6098FF;
+    border-right:1px solid #6098FF;
+}
+
+.butt-12{
+    border-color: #3498db;
+    padding: 0.5rem 1rem;
+    height: 2rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+.butt-12:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+  
